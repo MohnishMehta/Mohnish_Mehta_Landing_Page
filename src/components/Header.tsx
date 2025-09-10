@@ -24,10 +24,10 @@ function Header() {
       {/* RIGHT: Headshot */}
       <div className="mt-10 lg:mt-0 lg:ml-16 flex-shrink-0">
       <img
-  src="/headshot.jpg"
-  alt="Mohnish Mehta"
-  className="w-64 h-64 rounded-full object-cover object-top border-4 border-[#424042] shadow-lg"
-/>
+        src={`${process.env.PUBLIC_URL}/headshot.jpg`}
+        alt="Mohnish Mehta"
+        className="w-64 h-64 rounded-full object-cover object-top border-4 border-[#424042] shadow-lg"
+      />
 
       </div>
     </div>
